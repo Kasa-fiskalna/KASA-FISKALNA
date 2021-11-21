@@ -7,7 +7,13 @@ int main ()
 {
     string PIN;
     
-    double w_pomarancza, w_jablko, w_gruszka, w_banan, w_ziemniak, w_pomidor, w_ogorek, w_kapusta ;
+    double w_pomarancza, w_jablko, w_gruszka, w_banan, w_ziemniak, w_pomidor, w_ogorek, w_kapusta;
     double czk_pomarancza, czk_jablko, czk_gruszka, czk_banan, czk_ziemniak, czk_pomidor, czk_ogorek, czk_kapusta;
     int c_pomarancza, c_jablko, c_gruszka, c_banan, c_ziemniak, c_pomidor, c_ogorek, c_kapusta;
+    
+    int c_czekoladagorzka, int c_czekoladamleczna, int c_czekoladamleczna;
+    int c_bulkazytnia, c_kajzerka, c_chlebzytni, c_chlebpszenny;
+    int c_paluszki, c_belvitta, c_talarki, c_chipsy;
+    
+    
 };
