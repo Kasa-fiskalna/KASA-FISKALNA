@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    double iloscproduktu(0), cenaproduktu(0); 
+    
+    cout << "Podaj ilość produktu : ";    
+    cin >> iloscproduktu;
+    cout << "Podaj cenę produktu: ";   
+    cin >> cenaproduktu;
+
+    double const wynik(iloscproduktu * cenaproduktu);   
+
+    cout << iloscproduktu << " * " << cenaproduktu << " = " << wynik << endl; 
+    return 0;
+}
