@@ -1,0 +1,9 @@
+int produkt, waga;
+
+cout << "Podaj cene produktu za kilogram" << endl;
+cin >> produkt << endl;
+
+cout << "Podaj wage produktu" << endl;
+cin >> waga << endl;
+
+cout << "Kwota za produkt wynosi " << produkt * waga << endl;
