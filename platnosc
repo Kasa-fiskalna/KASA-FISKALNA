@@ -1,0 +1,27 @@
+string p, pin
+double pieniadze, kwota_do_zaplaty
+
+cout << "Platnosc karta czy gotowka?" <<endl;
+cin << p << endl;
+
+if (p == karta) {
+cout << "Podaj pin" << endl;
+cin << pin
+}
+
+else {
+cout << "Podaj ile klient dal pieniedzy" << endl;
+cin << pieniadze << endl;
+
+   if (pieniadze>=kwota_do_zaplaty) {
+      cout << "Reszta to " << (pieniadze) - (kwota_do_zaplaty)
+      }
+   else {
+      if (pieniadze == kwota_do_zaplaty) {
+      cout << "Platnosc przeprowadzona pomyslnie" <<endl;
+      }
+         else {
+         cout << "Wprowadzono za mala ilosc pieniedzy!";
+         }
+   }
+}
