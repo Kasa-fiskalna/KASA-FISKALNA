@@ -1,0 +1,20 @@
+#include <iostream>
+
+int main()
+{
+    using namespace std;
+
+    const double RABAT = 20;
+
+    cout << "Podaj wartość zakupów: ";
+    int WartoscZakupow;
+    cin >> WartoscZakupow;
+
+    double Obliczenie;
+    Obliczenie = RABAT / 100 * WartoscZakupow;
+
+    cout << "Wartość rabatu: " << Obliczenie << endl;
+    cout << WartoscZakupow << " - " << Obliczenie << " = " << WartoscZakupow- Obliczenie << endl;
+
+    return 0;
+}
